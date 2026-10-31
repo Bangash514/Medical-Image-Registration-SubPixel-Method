@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(SubPixelRegistration CXX)
+set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCV REQUIRED)
+add_executable(subpixel_registration subpixel_registration.cpp)
+target_link_libraries(subpixel_registration ${OpenCV_LIBS})
