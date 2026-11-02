@@ -1,6 +1,7 @@
-# Show-Sub-pixel-of-Image-Registration
+# Medical-Image-Registration-SubPixel-Method
 
-Sub-pixel image registration in C++ with OpenCV. The program shifts an image by a **known** sub-pixel amount, recovers the shift with **phase correlation** (`cv::phaseCorrelate` with a Hanning window), and registers the image back.
+Medical-Image-Registration-SubPixel-Method
+ in C++ with OpenCV. The program shifts an image by a **known** sub-pixel amount, recovers the shift with **phase correlation** (`cv::phaseCorrelate` with a Hanning window), and registers the image back.
 
 ## Result (built-in test image, OpenCV 4.6)
 | | x (px) | y (px) |
